@@ -1,0 +1,10 @@
+
+.add-cart-body{
+    /* display: none; */
+}
+.add-cart-body-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10vw;
+}
