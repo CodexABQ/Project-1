@@ -13,22 +13,14 @@ This project is a recreation of a website template that I found online. It serve
 
 The images used in this project were part of the original website template. I do not claim ownership of these images, and they are not my personal creations. Unfortunately, I do not have the specific sources or licensing information for these images. If you are the original creator of any of these images and would like to be credited or have them removed, please reach out to me, and I will gladly comply.
 
-
-## Contributing
-
-Contributions are welcome. If you'd like to contribute to this project, please follow our [contribution guidelines](CONTRIBUTING.md).
-
 ## Contact
 
-If you have any questions, suggestions, or concerns, feel free to reach out to me at [Your Contact Information].
+If you have any questions, suggestions, or concerns, feel free to reach out to me on X at [@CodexABQ].(https://x.com/CodexABQ?t=roqG3kJabGjDPdskolT7ug&s=09)
 
 ## License
 
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT] license file.
 
-## Image Credits
-
-The images used in this project were sourced from the internet. We want to make it clear that we do not own these images. Unfortunately, we don't have the exact sources or licensing information for these images. If you are the original creator of any of these images and would like to be credited or have them removed, please reach out to us, and we'll be happy to comply.
 
 
 We respect and appreciate the work of content creators, and we aim to use these images in a responsible and ethical manner.
