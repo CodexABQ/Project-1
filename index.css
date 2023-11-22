@@ -571,14 +571,14 @@ body{
     background-color: rgb(226, 170, 14);
 }
 .body-4 .text-space .text h2{
-    font-size: 2em;
+    font-size: clamp(1em, 60%, 3em);
     text-align: center;
 }
 .body-4 .text-space .text p{
     max-width: 300px;
     color: white;
     text-align: center;
-    font-size: 1em;
+    font-size: clamp(.6em, 50%, 2em);
     margin: 0 auto;
 }
 .body-4 .text-space .text .read-more{
