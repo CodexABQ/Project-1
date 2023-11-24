@@ -1019,7 +1019,10 @@ footer .foot-2{
         flex-wrap: wrap;
     }
     .body-3 .cards .card span{
-        width: 100%;
+        width: 90%;
+    }
+    .body-3 .cards .card{
+        width: fit-content;
     }
 }
 @media only screen and (min-width: 400px) and (max-width: 699px){
