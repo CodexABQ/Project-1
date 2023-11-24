@@ -447,6 +447,7 @@ body{
     display: flex;
     margin: 5vw;
     align-items: center;
+    align-items: center;
     transition-property: all;
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
@@ -482,6 +483,7 @@ body{
     text-align: center;
     padding: 10px;
     margin-bottom: 0;
+    width: 100%;
 }
 .body-3 .cards .card .card-foot p{
     font-size: 2vw;
@@ -500,6 +502,7 @@ body{
     padding: 5vh 5.5vw;
     margin: 0 auto;
     display: flex;
+    width: fit-content;
     justify-content: space-around;
     background: url(./img/cake-1.jpg);
     /* background-position: center; */
