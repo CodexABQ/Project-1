@@ -445,6 +445,7 @@ body{
 .body-3 .cards .card{
     display: flex;
     margin: 5vw;
+    width: min-content;
     transition-property: all;
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
