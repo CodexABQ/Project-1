@@ -1,0 +1,1037 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    transition-property: all;
+    transition-duration: 1s;
+    background-color: ghostwhite;
+    transition-timing-function: ease-in-out;
+}
+.nav-1{
+    display: flex;
+    flex-direction: column;
+}
+.nav-1 .nav-a{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 1em; */
+    background-color: papayawhip;
+}
+.nav-1 .nav-a h3{
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding-top: 1em;
+}
+.nav-1 .nav-a p{
+    font-size: 1em;
+    text-align: right;
+}
+.brown-button-space, .brown-button{
+    background-color: rgb(226, 170, 14);
+    color: white;
+    /* border: 1px solid white; */
+    padding: 1vw;
+    font-weight: 900;
+    display: inline-block;
+    /* font-family: fantasy; */
+    font-size: 1.2em;
+}
+.nav-1 .brown-button{
+    padding: 2vh 10vw;
+    border: 2px solid white;
+}
+.nav-1 .nav-b ul{
+    display: flex;
+    background-color: rgb(73, 72, 72);
+    position: sticky;
+    top: 10;
+    padding: 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.sub-head{
+    background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.808)),url(./img/hero.jpg);
+    background-position: center;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em;
+}
+.sub-head h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: 5vw;
+}
+.sub-head a:nth-child(2){
+    color: white;
+}
+.sub-head .link{
+    display: flex;
+    justify-content: space-around;
+    max-width: 150px;
+    color: aqua;
+    text-transform: capitalize;
+    margin: 0 auto;
+}
+.nav-1 .nav-b ul li a,
+.nav-1 .nav-b ul li{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 2vw 0.8vw;
+    font-size: 1em;
+}
+.nav-1 .nav-b ul li a:hover,
+.nav-1 .nav-b ul li a:focus{
+    color: goldenrod;
+    background-color: black;
+}
+.nav-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(94, 91, 91);
+}
+.nav-2 h1{
+    color: white;
+    font-size: 2em;
+    padding: 5px 2vw;
+}
+.nav-2 .nav-a{
+    display: none;
+}
+.nav-2 .nav-a ul li{
+    color: black;
+    background-color: rgb(158, 156, 156);
+    /* background-color: rgb(172, 168, 168); */
+    text-decoration: none;
+    padding: 2vh 20vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.nav-2 .nav-a ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+}
+.contact-body-1 .rest button{
+    outline: 1px solid white;
+    outline-offset: -1em;
+    padding: 5em;
+    text-transform: capitalize;
+}
+.contact-body-1 .text-space{
+    display: flex;
+    margin-bottom: -15vh;
+    margin-top: 15vh;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+}
+.contact-body-1 .text-space a,
+.contact-body-1 .text-space address{
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    padding: 10px;
+}
+.contact-body-1 .text-space .text{
+    background-color: rgb(226, 170, 14);
+    border: none;
+    margin: 1em;
+    /* width: 30%; */
+    outline: 1px solid white;
+    outline-offset: -2vw;
+    padding: 5vw;
+}
+.contact-body-1 .text-space h2{
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+.contact-body-1 .rest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15vw;
+    
+    padding-top: 20vh;
+    margin: 0 auto;
+    background-color: rgb(41, 39, 39);
+}
+.contact-body-1 .rest .input-1 input{
+    width: 50%;
+}
+.contact-body-1 .rest input::placeholder,
+.contact-body-1 .rest button::placeholder,
+.contact-body-1 .rest textarea::placeholder{
+    text-transform: capitalize;
+    opacity: 0.6;
+}
+.contact-body-1 .rest input,
+.contact-body-1 .rest button,
+.contact-body-1 .rest textarea{
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.contact-body-1 .rest .input-1{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-2 .nav-a ul li:hover,
+.nav-2 .nav-a ul li a:hover{
+    background-color: rgb(121, 119, 119);
+    text-decoration: underline;
+}
+.nav-2 img{
+    padding: 5px 2vw;
+}
+.nav-2 .nav-main:hover .nav-a{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    height: 100vh;
+    /* padding: 2vh 40%; */
+    width: 100%;
+    text-align: center;
+    background-color: rgb(158, 156, 156);
+}
+.nav-2 .nav-a .option-a{
+    display: none;
+}
+.header{
+    background: url(./img/hero.jpg);
+    background-position: center;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em;
+}
+.header h2{
+    color: goldenrod;
+    font-size: 4vw;
+    padding: 2vw;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header h1{
+    color: white;
+    font-size: 5vw;
+    padding-left: 3vw;
+    text-transform: uppercase;
+}
+.header .brown-button{
+    border: 2px solid white;
+    font-size: 2vw;
+}
+.cart{
+    display: none;
+}
+.number-of-carts{
+    color: rgb(223, 16, 16);
+}
+.header h3{
+    color: white;
+    text-transform: capitalize;
+    font-size: 3vw;
+    padding: 2vw;
+}
+.header .video{
+    display: flex;
+    padding: 2vw;
+}
+.header .video img{
+   width: 15vw;
+   color: red;
+   cursor: pointer;
+   /* outline: 40px solid white; */
+   /* outline-offset: -25px; */
+   border-radius: 50%;
+}
+.header .video p{
+    color: white;
+    margin: 5px;
+    font-size: 3vw;
+    text-transform: capitalize;
+    padding-top: 7%;
+}
+.brown-line{
+    display: flex;
+    justify-content: center;
+}
+.brown-line .brown-line-2{
+    height: 10px;
+    background-color: rgb(226, 170, 14);
+    width: 7vw;
+}
+.brown-line .brown-line-1{
+    background-color: rgb(226, 170, 14);
+    height: 4px;
+    margin-top: 3px;
+    width: 7vw;
+}
+.body-1 .body-a{
+    display: flex;
+}
+.body-1 h1,
+.body-3 h1,
+.body-5 h1,
+.body-6 h1,
+.body-7 h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 5px;
+    color: black;
+    font-weight: 900;
+}
+.body-1 h2,
+.body-3 h2,
+.body-5 h2,
+.body-6 h2,
+.body-7 h2{
+    color: rgb(226, 170, 14);
+    text-transform: capitalize;
+    font-size: 1.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.body-1 .body-a1-text h3,
+.body-1 .body-a1-text p{
+    max-width: 700px;
+}
+.body-1 .body-a1-text h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 10px 5px;
+}
+.body-1 .body-a1-text p{
+    font-size: 1.5em;
+    padding: 10px 5px;
+}
+.body-1 .body-a 
+.body-1 .brown-line,
+.body-3 .brown-line,
+.body-6 .brown-line{
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.body-1 .body-a .body-a1{
+    display: flex;
+    flex-direction: column;
+}
+.body-1 img{
+    width: 40%;
+    /* height: 50vh; */
+    padding: 0px 20px;
+    
+}
+.nav-2 h1{
+    font-size: 8vw;
+    /* color: red; */
+}
+.brown-cube{
+    background-color: rgb(226, 170, 14);
+    color: white;
+    outline: 2px solid white;
+    outline-offset: -1em;
+    /* border: 1px solid white; */
+    padding: 2em;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 1.2em;
+}
+.body-1 .brown-cube{
+    padding: 2em;
+}
+.body-1 .brown-line{
+    justify-content: center;
+    padding: 2em;
+    margin: 0 auto;
+}
+.body-1 .body-a .body-a1-cards h4{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: 600;
+}
+.body-1 .body-a .body-a1-cards p{
+    font-size: 1em;
+    max-width: 200px;
+}
+.body-1 .body-a .body-a1-cards .body-a1-card{
+    margin: 10px;
+    padding: 10px;
+}
+.body-1 .body-a .body-a1-cards{
+    display: flex;
+}
+.body-2{
+    display: flex;
+    background-color: rgb(12, 11, 11);
+    justify-content: center;
+}
+.body-2 .body-a{
+    margin: 10px;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.body-2 .body-a h3,
+.body-2 .body-a p{
+    color: rgba(255, 255, 255, 0.589);
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 5px 2px;
+}
+.body-2 .body-a h3{
+    color: rgb(131, 97, 13);
+}
+.body-2 .body-a .brown-cube{
+    padding: 1.4em;
+}
+
+.body-3 .black-cube button{
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    justify-content: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 0.5em;
+    background-color: transparent;
+}
+.body-3 .black-cube button:first-child,
+.body-3 .black-cube button:focus{
+    background-color: rgb(226, 170, 14);
+}
+.body-3 .black-cube{
+    background-color: black;
+    padding: 2em;
+    width: fit-content;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    outline-offset: -2vh;
+    outline: 2px solid white;
+}
+.body-3 .cards{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+.body-3 .cards .card{
+    display: flex;
+    margin: 5vw;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    flex-direction: column;
+}
+.body-3 .cards .card:hover span button{
+    visibility: visible;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    border: 2px solid black;
+}
+.body-3 .cards .card span button{
+    visibility: hidden;
+    background-color: rgb(226, 170, 14);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 1vw;
+    text-align: center;
+}
+.body-3 .cards .card:hover span{
+    background-position: center;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.body-3 .cards .card .price p{
+    background-color: rgb(10, 9, 9);
+    color: wheat;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.body-3 .cards .card .card-foot p{
+    font-size: 2vw;
+    max-width: 500px;
+}
+.body-3 .cards .card .card-foot h3{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2vw;
+}
+.body-3 .cards .card .card-foot{
+    background-color: rgb(235, 204, 209);
+    margin-top: 0;
+    padding: 10px;
+}
+.body-3 .birthday-cards .card span{
+    padding: 5vh 5.5vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background: url(./img/cake-1.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+}
+.body-3 .wedding-cards .card span{
+    background: url(./img/cake-2.jpg);
+    padding: 5vh 5.5vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+}
+.body-3 .birthday-cards .card .card-foot{
+    background-color: lightcoral;
+}
+.body-3 .wedding-cards .card .card-foot{
+    background-color: lightslategrey;
+}
+.body-3 .custom-cards .card span{
+    background: url(./img/cake-3.jpg);
+    padding: 5vh 5.5vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+}
+.body-4 .rest{
+    background: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.658)), url(./img/offer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    margin-top: -15vh;
+    padding-bottom: 12vh;
+    padding-top: 20vh;
+    /* height: 79vh; */
+}
+.body-4 .rest button{
+    outline: 2px solid white;
+    outline-offset: -1vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 1vh 2vw;
+    margin: 0 auto;
+}
+.body-4 .rest h3{
+    color: white;
+    margin: 20px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 2em;
+}
+.body-4 .text-space{
+    display: flex;
+    justify-content: space-around;
+    padding: 1px 5vw;
+    
+    /* position: absolute; */
+}
+.body-4 .text-space .text{
+    margin: 10px;
+    padding: 4vw;
+    outline: 1px solid white;
+    outline-offset: -2vw;
+    background-color: rgb(226, 170, 14);
+}
+.body-4 .text-space .text h2{
+    font-size: 2em;
+    text-align: center;
+}
+.body-4 .text-space .text p{
+    max-width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    margin: 0 auto;
+}
+.body-4 .text-space .text .read-more{
+    color: grey;
+    cursor: pointer;
+}
+.body-4 #read-more{
+    display: none;
+}
+.body-4 .big-cake img{
+    margin-right: auto;
+    float: right;
+}
+.body-4 .big-cake h1{
+    text-transform: uppercase;
+    padding: 1em;
+    text-align: center;
+}
+.body-5 .brown-line{
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 5vh;
+}
+.body-5 .cards{
+    display: flex;
+    justify-content: space-around;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.body-5 .cards .card{
+    margin: 25px;
+    /* width: 30vw; */
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+.body-5 .cards .card .brown-cube-group .brown-cube{
+    padding: 2vw;
+    outline-offset: -1vw;
+    height: 30px;
+    margin: 5px;
+    justify-self: center;
+    margin-top: 6em;
+    visibility: hidden;
+    opacity: 0;
+}
+.body-5 .cards .card .brown-cube-group{
+    display: flex;
+    justify-content: center;
+    padding: 1px 5vw;
+    background: url(./img/team-1.jpg);
+    height: 20em;
+    /* background-size: 20em; */
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+.body-5 .cards .card:hover .group-a{
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.466)),
+     url(./img/team-1.jpg);
+}
+.body-5 .cards .card .group-b{
+    display: flex;
+    justify-content: center;
+    padding: 1px 5vw;
+    background: url(./img/team-2.jpg);
+    height: 20em;
+    /* background-size: 20em; */
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+.body-5 .cards .card:hover .group-b{
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    background-size: 120%;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.466)),
+     url(./img/team-2.jpg);
+}
+.body-5 .cards .card .group-c{
+    display: flex;
+    justify-content: center;
+    padding: 1px 5vw;
+    background: url(./img/team-3.jpg);
+    height: 20em;
+    /* background-size: 2100%; */
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+.body-5 .cards .card:hover .group-c{
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: top;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.466)),
+     url(./img/team-3.jpg);
+}
+.body-5 .cards .card:hover .brown-cube-group .brown-cube{
+    visibility: visible;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    opacity: 1;
+    cursor: pointer;
+}
+.body-5 .cards .card .card-foot p{
+    color: white;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1vw;
+    margin: 10px 1px;
+}
+.body-5 .cards .card .card-foot h3{
+    text-align: center;
+    margin: 10px 1px;
+    color: goldenrod;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.body-5 .cards .card .card-foot{
+    padding: 2em 2em;
+    background-color: rgb(12, 11, 11);
+    outline: 1px solid white;
+    outline-offset: -1em;
+}
+.body-6{
+    background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.767)), url(./img/offer.jpg);
+    padding: 2em 1em;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.body-6 p{
+    color: white;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+    padding: 15px;
+    font-style: italic;
+}
+.body-6 h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 800;
+}
+.body-6 .button-space{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: space-around;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.body-6 .button-space .brown-button{
+    padding: 1em 2em;
+    outline: 1px solid white;
+    outline-offset: -1em;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+}
+.body-6 .button-space .transparent-button{
+    border: none;
+    outline: 1px solid white;
+    padding: 1em 2em;
+    outline-offset: -1em;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+    background-color: grey;
+}
+footer .change-img-space{
+    padding: 5vw;
+    width: fit-content;
+    background-color: rgb(226, 170, 14);
+    outline: 1px solid white;
+    border: none;
+    margin-bottom: -16px;
+    outline-offset: -2vw;
+}
+footer .change-image{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.74)),url(./assets/img/nature/4.jpg); */
+    background-size: cover;
+    width: 20vw;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    /* animation-name: change; */
+    animation-duration: 30s;
+    /* animation-delay: 20s; */
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+footer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 20vh;
+    background: rgb(12, 11, 11);
+    justify-content: space-around;
+}
+footer .foot-2 .foot-a{
+    margin: 15px;
+}
+footer .foot-2 ul{
+    list-style-type: none;
+}
+footer .foot-2 .brown-cube-space .brown-cube{
+    padding: 2vw;
+    margin: 5px;
+    outline-offset: -1vw;
+}
+footer .foot-2 .brown-cube-space{
+    display: flex;
+
+}
+footer .foot-2 ul li a,
+footer .foot-2 ul li:first-child,
+footer .foot-2 p{
+    color: white;
+    text-decoration: none;
+    max-width: 300px;
+    text-transform: capitalize;
+    font-size: 1vw;
+}
+
+footer .foot-2 h3{
+    color: rgb(185, 89, 34);
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+footer .button-group input{
+    width: 20vw;
+    margin-right: 0;
+    padding: 1px 5px;
+    border-radius: 0;
+    border: none;
+    font-size: 1.5vw;
+}
+footer .button-group button{
+    background-color: rgb(226, 170, 14);
+    color: white;
+    padding: 1px 5px;
+    border: none;
+    border-radius: 0;
+    margin-left: 0;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+}
+footer .button-group{
+    display: flex;
+    justify-content: center;
+}
+footer .foot-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.body-8 .foot-3 h4{
+    color: white;
+    background-color: black;
+    font-size: 1.4vw;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 1px;
+    /* animation-name: sign; */
+    animation-duration: 1s;
+    transition-property: background-image;
+    transition-duration: 59s;
+    transition-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes sign {
+    from{
+        background-image: linear-gradient(95deg, red 0%, black 5%);
+        transition-property: background-image;
+        transition-duration: 59s;
+    }
+    to{
+        background-image: linear-gradient(95deg, red 100%, black 5%);
+        transition-property: background-image;
+        transition-duration: 59s;
+    }
+}
+@keyframes change {
+    30%{
+        /* opacity: 1; */
+        background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.712)),url(./assets/img/nature/1.jpg);    
+        background-size: cover;
+        width: 20vw;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    60%{
+        background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.699)),url(./assets/img/nature/2.jpg);    
+        background-size: cover;
+        width: 20vw;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    90%{
+        background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.712)),url(./assets/img/nature/3.jpg);    
+        background-size: cover;
+        width: 20vw;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 300px){
+    .body-4 .text-space .text{
+        display: none;
+    }
+    .body-4 .rest{
+        margin-top: 0;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 800px){
+    .body-1 .body-a{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .contact-body-1 .text-space{
+        display: flex;
+        flex-direction: column;
+    }
+    .body-5 .cards .card .brown-cube-group .brown-cube{
+        padding: 4vw;
+    }
+    .body-5 .cards .card .brown-cube-group{
+        display: flex;
+        justify-content: center;
+        padding: 1px 5vw;
+        /* height: 20em; */
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .body-5 .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .body-4 .rest{
+        margin-top: -75vh;
+    }
+    .body-4 .rest{
+        padding-top: 80vh;
+    }
+    .body-4 .text-space{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .body-1 .body-a img{
+        width: 90%;
+    }
+    .body-1 .body-a h3,
+    .body-1 .body-a p{
+        font-size: 4vw;
+        margin: 1px 5vw;
+    }
+    .brown-cube{
+        outline-offset: -0.7em;
+    }
+    .body-1 .brown-cube{
+        margin: 20px;
+    }
+    .body-1 h1,
+    .body-1 h2,
+    .body-5 h2,
+    .body-5 h1,
+    .body-4 .big-cake h1,
+    .body-3 h1{
+        font-size: 5vw;
+    }
+    .body-1 .body-a .body-a1-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .body-1 .body-a .body-a1-cards h4{
+        font-size: 4vw;
+    }
+    
+}
+@media only screen and (max-width: 699px ){
+    .nav-1{
+        display: none;
+    }
+    
+    .body-2{
+        display: flex;
+        padding: 20px 12vw;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+    }
+    .body-3 .wedding-cards,
+    .body-3 .custom-cards{
+        display: none;
+    }
+}
+@media only screen and (min-width: 700px ){
+    .nav-2{
+        display: none;
+    }
+    
+    .body-3 .black-cube{
+        display: none;
+    }
+    .body-3 .wedding-cards,
+    .body-3 .custom-cards,
+    .body-3 .birthday-cards{
+        display: flex;
+    }
+}
+@media screen and (max-width: 500px){
+    .body-3 .cards{
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+    .body-3 .cards .card span{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 699px){
+    .nav-2 .nav-a ul li{
+        padding: 9vh 9vw;
+    }
+    .nav-2 .nav-main:hover .nav-a{
+        width: fit-content;
+        margin-top: -15px;
+    }
+    .nav-2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
