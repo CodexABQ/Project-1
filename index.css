@@ -438,6 +438,10 @@ body{
     /* flex-wrap: wrap; */
     justify-content: space-around;
 }
+.body-3 .cards img{
+    width: 100%;
+    height: 100%
+}
 .body-3 .cards .card{
     display: flex;
     margin: 5vw;
