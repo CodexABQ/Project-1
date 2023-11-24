@@ -1025,7 +1025,7 @@ footer .foot-2{
         align-items: center;
     }
     .body-3 .cards .card{
-        max-width: clamp(4em, 40%, 70vw);
+        
     }
     .body-3 .cards .card span{
         width: 100%;
